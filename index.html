@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>James Robinson | Front-End Developer</title>
+        <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./dist/styles/style.min.css">
+        <link rel="icon" type="image/png" href="./images/favicon.png">
+    </head>
+    <body>
+        <div class="container">
+             <!--top container-->
+            <div class="top-container">
+                <div class="top-wrap">
+                    <!--header-->
+                    <header>
+                        <div><h1><a href=".">James Robinson.</a></h1></div>
+                        <nav>
+                            <a tabindex=0 class="projects-link">Projects</a>
+                            <a tabindex=0 class="contact-link">Contact</a>
+                            <a href="https://github.com/jrobind"><i class="fab fa-github"></i></a>
+                         </nav>
+                    </header>
+                    <!--about me-->
+                    <section class="about">
+                        <div class="avatar-container">
+                            <h2>
+                                Inspired, Hardworking, Front-End Developer, With A Passionate Interest For Everything JavaScript.
+                            </h2>
+                            <hr>
+                            <div class="img-wrapper">
+                                <img src="./images/avatar.jpg" alt="man sitting on mountain edge"/>
+                            </div>
+                        </div>
+
+                        <div class="about-info">
+                            I'm James Robinson, a self-taught front-end developer from London. Although I have a wide-ranging skillset, I specialise in all things JavaScript, from plain old vanilla, to the latest frameworks and libraries. I am passionate about learning new technologies while working hard to improve my existing skills. When I'm not coding I like to go into the mountains - for hiking or climbing. I also enjoy powerlifitng and olympic weightlifitng.
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- middle/main container-->
+            <main>
+                <!--skills section-->
+                <div class="skills">
+                    <div class="skills-wrap">
+                        <p>
+                           I love to create and build websites using HTML, CSS, JavScript, and jQuery. During my self-education process I have focused a great portion of my time on learning JavaScript in depth. I am well veresed in ES5, as well as modern E6S JS and the React ecosystem.
+                        </p>
+                        <p>
+                            I also have a functional and growing capability with API's, Node.js, non-relational databases such as MongoDB, and also build tools such as Webpack. Find out about the personal projects I have worked on below and please get in touch.
+                        </p>
+                    </div>
+                </div>
+                <!--projects section-->
+                <div class="projects-wrap">
+                    <h2>Personal Projects</h2>
+                    <!-- Soccer.js project -->
+                    <section class="project">
+                        <div class="project-info">
+                            <h3><a class="soccer-js-github" href="https://github.com/jrobind/soccer.js"><i class="fab fa-github"></i></a> soccer.js</h3>
+                            <h5>ES5, JavaScript, CSS</h5>
+                            <p>
+                                soccer.js is a simple open source JavaScript library used for quickly building responsive and attractive soccer league tables. The library is built using vanilla JavaScript ES5.
+                            </p>
+                            <p> 
+                                 The library provides an easy way to update league tables with added table reverse functionality and an optional dropdown toggle. soccer.js has been built to account for every scenario in mind. Teams, are by default, automatically sorted by points, then by goal difference, goals scored, and lastly, alphabetically.
+                            </p>
+                        </div>
+                        <a href="https://jrobind.github.io/soccer.js/" class="visit soccer-js">VISIT WEBSITE</a>
+                        <div class="project-img-container">
+                            <div class="img-wrapper-projects">
+                                <img src="./images/soccer-js-mockup.png" alt="home page of a website featuring a soccer league table"/>
+                            </div>  
+                        </div>
+                    </section>
+                    
+                    <!-- Fit-Search project -->
+                    <section class="project">
+                        <div class="project-info">
+                            <h3><a class="fit-search-github" href="https://github.com/jrobind/Fit-Search"><i class="fab fa-github"></i></a> Fit-Search</h3>
+                            <h5>ES6, React, Redux, CSS, Express, MongoDB</h5>
+                            <p>
+                                Fit-Search is a personal trainer search and review application. Fit-Search is built with React and Redux using the latest E6S JavaScript, and with an API backend built using Express and MongoDB.
+                            </p>
+                            <p> 
+                                Fit-Search helps people find trusted, high quality, personal trainers across England. The application serves both user and trainer and interests. Whilst users able to exploit the applications unique search and review functionality, trainers are able to use the application to help build a strong client base.
+                            </p>
+                        </div>
+                        <a href="https://fit-search.herokuapp.com/" class="visit fit-search">VISIT WEBSITE</a>
+                        <span class="wake-up">*you may have to wait a few seconds for the application to wake-up.</span>
+                        <div class="project-img-container">
+                            <div class="img-wrapper-projects">
+                                <img src="./images/fit-search-mockup.png" alt="home page of website showing 2 women pushing a sled"/>
+                            </div>  
+                        </div>
+                    </section>
+                    
+                    <!-- Issue-track project -->
+                    <section class="project">
+                        <div class="project-info">
+                            <h3><a class="issue-track-github" href="https://github.com/jrobind/Issue-track"><i class="fab fa-github"></i></a> Issue-track</h3>
+                            <h5>ES5, JavaScript, Handlebars, CSS</h5>
+                            <p>
+                                Issue-track is an issue/bug tracking application. This is my first JavaScript project. The aim was to create a simple, but useful application to help learn the fundamentals of ES5 JavaScript and CSS. 
+                            </p>
+                            <p> 
+                                Issue-track has multiple features. The application enables users to submit issues based on their type and also by their serverity. The issues can then be filtered by their current status (open or closed) and also by severity. The locaStorage API is used to persist issue data. 
+                            </p>
+                        </div>
+                        <a href="https://jrobind.github.io/Issue-track/" class="visit issue-track">VISIT WEBSITE</a>
+                        <div class="project-img-container">
+                            <div class="img-wrapper-projects">
+                                <img src="./images/issue-track-mockup.png" alt="home page of website showing 2 women pushing a sled"/>
+                            </div>  
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <!--contact form-->
+            <section class="contact-section">
+                <div class="contact-wrap">
+                    <h2>Get In Touch.</h2>
+                    <p class="email">jrobind@outlook.com</p>
+                    <a href="https://github.com/jrobind"><i class="fab fa-github"></i></a>
+                    <form action="https://formspree.io/jrobind@outlook.com" method="POST">
+                        <!--form-->
+                        <div>
+                            <input type="text" name="name" placeholder="*name" required>
+                            <input type="email" name="email" placeholder="*email address" required>
+                        </div>
+                        <textarea name="message" required placeholder="how can I help?"></textarea>
+                        <input type="submit" value="Send">
+                        <p class="required">* Required</p>
+                    </form>
+                </div>
+            </section>
+            <!--footer-->
+            <footer>
+                <p>Copyright James Robinson 2018</p>
+            </footer>
+        </div>
+        <script src="./dist/scripts/index.min.js"></script>
+    </body>
+</html>

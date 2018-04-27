@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "gulpfile.js",
+  "scripts": {},
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "James Robinson <jrobind@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "3.0.0",
+    "gulp": "3.9.1",
+    "gulp-clean-css": "3.9.3",
+    "gulp-rename": "1.2.2",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-uglify": "3.0.0",
+    "gulp-watch": "5.0.0"
+  }
+}
