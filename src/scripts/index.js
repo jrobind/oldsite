@@ -1,7 +1,7 @@
 $(document).ready(function() {
     /* smooth scroll to projects and contact section */
     $('.projects-link').click(scrollFunction.bind(null, '.projects-wrap'));
-    $('.contact-link').click(scrollFunction.bind(null, 'footer'));
+    $('.contact-link').click(scrollFunction.bind(null, '.contact-section'));
 
     function scrollFunction(destination) {
         $('html, body').animate({
