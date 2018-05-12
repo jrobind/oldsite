@@ -11,6 +11,10 @@ body {
 
 /* --------- general styles --------- */
 
+.container {
+    min-width: 280px;
+}
+
 .container, header, nav, .about, .skills-wrap, .projects-wrap, .project, .contact-wrap, .project-info, .contact-section form, footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -67,7 +71,8 @@ nav, .contact-wrap {
 }
 
 .skills, .contact-section, footer {
-    background-color: rgba(0, 0, 0, 0.9);
+    background: #15263a;
+    background-image: radial-gradient(ellipse at center -50%, #18334f 18%, #1952532 57%, #15263a 100%);
 }
 
 .soccer-js:hover, .fit-search:hover, .issue-track:hover, .contact-section input[type='submit']:hover {
@@ -83,7 +88,7 @@ nav, .contact-wrap {
 }
 
 .top-container {
-    background: url('../../images/mountain-portfolio-large(2).jpg') center center / cover;
+    background: url('../../images/mountain-portfolio-large.jpg') center center / cover;
     min-height: 100vh;
 }
 
@@ -127,7 +132,6 @@ nav a:hover {
 }
 
 .projects-link, .contact-link {
-    font-size: 0.95em;
     margin-right: 20px;
 }
 
@@ -178,7 +182,7 @@ nav a:hover {
 }
 
 .skills-wrap p {
-    color: rgba(250, 250, 250, 0.75);
+    color: rgba(250, 250, 250, 0.8);
     line-height: 1.8;
     width: 100%; /* IE11 */
     max-width: 450px;
@@ -238,7 +242,7 @@ nav a:hover {
 .project-info h3 {
     font-size: 1.55em;
     width: 100%;
-    margin-top: 0;
+    margin: 0 0 10px 0;
     padding-bottom: 3px;
     border-bottom: 1px solid black;
     max-width: 278px;
@@ -297,6 +301,23 @@ nav a:hover {
     max-width: 220px;
 }
 
+/* -------------- Geoggle project styles -----------*/
+
+.geoggle-github {
+    color: #45b649;
+}
+
+.geoggle {
+    background: white;
+    border: 1px solid #45b649;
+    color: #45b649;
+}
+
+.geoggle:hover {
+    background: #45b649;;
+    color: white;
+}
+
 /* ----------- Issue-track project styles ---------- */
 
 .issue-track-github {
@@ -342,7 +363,6 @@ nav a:hover {
     border-radius: 5px;
     outline: none;
     margin: 5px;
-    color: rgba(250, 250, 250, 0.75);
 }
 
 .contact-section input[type='submit'] {
@@ -364,20 +384,13 @@ nav a:hover {
     overflow: auto; 
 }
 
-.contact-section textarea::-webkit-input-placeholder, .contact-section textarea {
+.contact-section input[type='text']::placeholder, .contact-section input[type='email']::placeholder, .contact-section textarea::placeholder, .contact-section textarea {
     font-family: 'Cabin', sans-serif;
-}
-
-.contact-section textarea:-ms-input-placeholder, .contact-section textarea {
-    font-family: 'Cabin', sans-serif;
-}
-
-.contact-section textarea::placeholder, .contact-section textarea {
-    font-family: 'Cabin', sans-serif;
+    color: rgba(250, 250, 250, 0.8);
 }
 
 .contact-section p {
-    color: rgba(250, 250, 250, 0.75);
+    color: rgba(250, 250, 250, 0.8);
     text-align: center;
 }
 
@@ -398,8 +411,8 @@ nav a:hover {
 /* ------------ footer styles ----------- */
 
 footer {
-    color: rgba(250, 250, 250, 0.75);
-    border-top: 1px solid rgba(250, 250, 250, 0.75);
+    color: rgba(250, 250, 250, 0.8);
+    border-top: 1px solid rgba(250, 250, 250, 0.8);
     padding: 30px 0;
 }
 
@@ -493,7 +506,7 @@ footer p {
 
 @media screen and (max-width: 700px) {
     .top-container {
-        background: url('../../images/mountain-portfolio(2)-small.jpg') right center / cover;
+        background: url('../../images/mountain-portfolio-small.jpg') right center / cover;
     }
     
     .img-wrapper {
