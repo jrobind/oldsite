@@ -365,6 +365,7 @@ nav a:hover {
     border-radius: 5px;
     outline: none;
     margin: 5px;
+    color: rgba(250, 250, 250, 0.8);
 }
 
 .contact-section input[type='submit'] {
@@ -388,22 +389,18 @@ nav a:hover {
 
 .contact-section input[type='text']::-webkit-input-placeholder, .contact-section input[type='email']::-webkit-input-placeholder, .contact-section textarea::-webkit-input-placeholder, .contact-section textarea {
     font-family: 'Cabin', sans-serif;
-    color: rgba(250, 250, 250, 0.8);
 }
 
 .contact-section input[type='text']:-ms-input-placeholder, .contact-section input[type='email']:-ms-input-placeholder, .contact-section textarea:-ms-input-placeholder, .contact-section textarea {
     font-family: 'Cabin', sans-serif;
-    color: rgba(250, 250, 250, 0.8);
 }
 
 .contact-section input[type='text']::-ms-input-placeholder, .contact-section input[type='email']::-ms-input-placeholder, .contact-section textarea::-ms-input-placeholder, .contact-section textarea {
     font-family: 'Cabin', sans-serif;
-    color: rgba(250, 250, 250, 0.8);
 }
 
 .contact-section input[type='text']::placeholder, .contact-section input[type='email']::placeholder, .contact-section textarea::placeholder, .contact-section textarea {
     font-family: 'Cabin', sans-serif;
-    color: rgba(250, 250, 250, 0.8);
 }
 
 .contact-section p {
