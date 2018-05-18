@@ -303,6 +303,23 @@ nav a:hover {
     max-width: 220px;
 }
 
+.dummy h4 {
+    margin: 0 0 6px 0;
+}
+
+.dummy h4:last-of-type {
+    margin-top: 7px
+}
+
+.dummy p {
+    margin: 0;
+    padding: 1px 0;
+}
+
+.dummy p:last-of-type {
+    margin-bottom: 20px;    
+}
+
 /* -------------- Geoggle project styles -----------*/
 
 .geoggle-github {
