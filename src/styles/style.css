@@ -15,13 +15,29 @@ body {
     min-width: 280px;
 }
 
-.container, header, nav, .about, .skills-wrap, .projects-wrap, .project, .contact-wrap, .project-info, .contact-section form, footer {
+.container, 
+header, 
+nav, 
+.about, 
+.skills-wrap, 
+.projects-wrap, 
+.project, 
+.contact-wrap, 
+.project-info, 
+.contact-section form, 
+footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 
-.about, .container, .project-info, .projects-wrap, .contact-wrap, .contact-section form, footer {
+.about, 
+.container, 
+.project-info, 
+.projects-wrap, 
+.contact-wrap, 
+.contact-section form, 
+footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -77,7 +93,11 @@ nav, .contact-wrap {
     background-image: radial-gradient(ellipse at center -50%, #18334f 18%, #1952532 57%, #15263a 100%);
 }
 
-.soccer-js:hover, .fit-search:hover, .issue-track:hover, .contact-section input[type='submit']:hover {
+.soccer-js:hover, 
+.fit-search:hover, 
+.issue-track:hover,
+.geoggle:hover,
+.contact-section input[type='submit']:hover {
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
@@ -404,19 +424,31 @@ nav a:hover {
     overflow: auto; 
 }
 
-.contact-section input[type='text']::-webkit-input-placeholder, .contact-section input[type='email']::-webkit-input-placeholder, .contact-section textarea::-webkit-input-placeholder, .contact-section textarea {
+.contact-section input[type='text']::-webkit-input-placeholder, 
+.contact-section input[type='email']::-webkit-input-placeholder, 
+.contact-section textarea::-webkit-input-placeholder, 
+.contact-section textarea {
     font-family: 'Cabin', sans-serif;
 }
 
-.contact-section input[type='text']:-ms-input-placeholder, .contact-section input[type='email']:-ms-input-placeholder, .contact-section textarea:-ms-input-placeholder, .contact-section textarea {
+.contact-section input[type='text']:-ms-input-placeholder, 
+.contact-section input[type='email']:-ms-input-placeholder, 
+.contact-section textarea:-ms-input-placeholder, 
+.contact-section textarea {
     font-family: 'Cabin', sans-serif;
 }
 
-.contact-section input[type='text']::-ms-input-placeholder, .contact-section input[type='email']::-ms-input-placeholder, .contact-section textarea::-ms-input-placeholder, .contact-section textarea {
+.contact-section input[type='text']::-ms-input-placeholder, 
+.contact-section input[type='email']::-ms-input-placeholder, 
+.contact-section textarea::-ms-input-placeholder, 
+.contact-section textarea {
     font-family: 'Cabin', sans-serif;
 }
 
-.contact-section input[type='text']::placeholder, .contact-section input[type='email']::placeholder, .contact-section textarea::placeholder, .contact-section textarea {
+.contact-section input[type='text']::placeholder, 
+.contact-section input[type='email']::placeholder, 
+.contact-section textarea::placeholder, 
+.contact-section textarea {
     font-family: 'Cabin', sans-serif;
 }
 
