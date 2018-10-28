@@ -88,9 +88,6 @@ nav, .contact-wrap {
 
 .skills, .contact-section, footer {
     background: #15263a;
-    background-image: -webkit-radial-gradient(center -50%, ellipse, #18334f 18%, #1952532 57%, #15263a 100%);
-    background-image: -o-radial-gradient(center -50%, ellipse, #18334f 18%, #1952532 57%, #15263a 100%);
-    background-image: radial-gradient(ellipse at center -50%, #18334f 18%, #1952532 57%, #15263a 100%);
 }
 
 .soccer-js:hover, 
@@ -429,6 +426,7 @@ nav a:hover {
 .contact-section textarea::-webkit-input-placeholder, 
 .contact-section textarea {
     font-family: 'Cabin', sans-serif;
+    color: rgba(250, 250, 250, 0.65);
 }
 
 .contact-section input[type='text']:-ms-input-placeholder, 
@@ -436,6 +434,7 @@ nav a:hover {
 .contact-section textarea:-ms-input-placeholder, 
 .contact-section textarea {
     font-family: 'Cabin', sans-serif;
+    color: rgba(250, 250, 250, 0.65);
 }
 
 .contact-section input[type='text']::-ms-input-placeholder, 
@@ -443,6 +442,7 @@ nav a:hover {
 .contact-section textarea::-ms-input-placeholder, 
 .contact-section textarea {
     font-family: 'Cabin', sans-serif;
+    color: rgba(250, 250, 250, 0.65);
 }
 
 .contact-section input[type='text']::placeholder, 
@@ -450,6 +450,7 @@ nav a:hover {
 .contact-section textarea::placeholder, 
 .contact-section textarea {
     font-family: 'Cabin', sans-serif;
+    color: rgba(250, 250, 250, 0.65);
 }
 
 .contact-section p {
