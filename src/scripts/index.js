@@ -8,4 +8,8 @@ $(document).ready(function() {
             'scrollTop': $(destination).offset().top
         }, 1500)
     }
+
+    // automatically set year
+    var date = new Date();
+    $('#year').text(date.getFullYear());
 });
