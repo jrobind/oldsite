@@ -15,6 +15,11 @@ body {
     min-width: 280px;
 }
 
+a {
+    text-decoration: none;
+    color: #0645AD;
+}
+
 .container, 
 header, 
 nav, 
@@ -91,8 +96,7 @@ nav, .contact-wrap {
 }
 
 .soccer-js:hover, 
-.fit-search:hover, 
-.issue-track:hover,
+.tube-status:hover, 
 .geoggle:hover,
 .contact-section input[type='submit']:hover {
     -webkit-transition: 0.4s;
@@ -120,7 +124,12 @@ header div:first-of-type, nav {
 }
 
 header {
-    padding: 3% 10px;
+    z-index: 1;
+    padding: 28px 45px;
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.04), 0 1px 5px 0 rgba(0,0,0,.04);
 }
 
 header h1 {
@@ -133,6 +142,10 @@ header h1 {
 header a {
     color: black;
     text-decoration: none;
+}
+
+header a img {
+    max-width: 24px;
 }
 
 nav {
@@ -150,7 +163,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-.projects-link, .contact-link {
+.projects-link, .contact-link, .cv {
     margin-right: 20px;
 }
 
@@ -158,7 +171,7 @@ nav a:hover {
 
 .about {
     max-width: 800px;
-    margin: 60px 0 120px 0;
+    margin: 50px 0 120px 0;
 }
 
 .about hr {
@@ -186,7 +199,6 @@ nav a:hover {
     width: 220px;
     height: 215px;
     display: inline-block;
-    border: 6px solid #d6d6d6;
     -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
             box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -236,6 +248,11 @@ nav a:hover {
     margin: 60px auto;
     min-height: 300px;
     padding: 55px 30px;
+}
+
+.project-info a img {
+    max-width: 24px;
+    margin-right: 4px;
 }
 
 .visit {
@@ -293,48 +310,21 @@ nav a:hover {
     color: white;
 }
 
-/* ---------- Fit-Search project styles ----------- */
+/* ---------- Tube-status project styles ----------- */
 
-.fit-search-github {
+.tube-status-github {
     color: black;
 }
 
-.fit-search {
+.tube-status {
     background-color: white;
-    color: black;
-    border: 1px solid black;
+    color:#4285F4;
+    border: 1px solid #4285F4;
 }
 
-.fit-search:hover {
-    background: black;
+.tube-status:hover {
+    background: #4285F4;
     color: white;
-}
-
-.wake-up {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: 0.75em;
-    text-align: right;
-    padding: 15px;
-    max-width: 220px;
-}
-
-.dummy h4 {
-    margin: 0 0 6px 0;
-}
-
-.dummy h4:last-of-type {
-    margin-top: 7px
-}
-
-.dummy p {
-    margin: 0;
-    padding: 1px 0;
-}
-
-.dummy p:last-of-type {
-    margin-bottom: 20px;    
 }
 
 /* -------------- Geoggle project styles -----------*/
@@ -354,24 +344,19 @@ nav a:hover {
     color: white;
 }
 
-/* ----------- Issue-track project styles ---------- */
-
-.issue-track-github {
-    color: rgb(54, 128, 208);
-}
-
-.issue-track {
-    background: white;
-    border: 1px solid rgb(54, 128, 208);
-    color: rgb(54, 128, 208);
-}
-
-.issue-track:hover {
-    background: rgb(54, 128, 208);
-    color: white;
-}
-
 /* ----------- contact section styles ----------- */
+
+label {
+    visibility: hidden;
+}
+
+#name {
+    margin-left: -40px;
+}
+
+textarea {
+    margin-top: 0;
+}
 
 .contact-wrap {
     color: white;
@@ -512,14 +497,6 @@ footer p {
         padding-bottom: 50px;
     }
     
-    .wake-up {
-        margin-bottom: 20px;
-        text-align: center;
-        max-width: 100%;
-        left: 20%;
-        right: 20%;
-    }
-    
     .project:nth-of-type(2) {
         padding-bottom: 80px;
     }
@@ -606,10 +583,10 @@ footer p {
     }
     
     header {
-        padding: 3% 0;
+        padding: 15px 25px;
     }
     
-    .projects-link, .contact-link {
+    .projects-link, .contact-link, .cv {
         margin-right: 10px;
         font-size: 0.85em;
     }
@@ -624,6 +601,10 @@ footer p {
                 flex-direction: column;
         width: 100%;
     }
+
+    #name {
+        margin-left: 5px;
+    }
     
     .contact-section form {
         width: 90%;
@@ -633,6 +614,10 @@ footer p {
 @media screen and (max-width: 475px) {
     .top-wrap {
         margin: 0 15px;
+    }
+
+    header a img {
+        max-width: 19px;
     }
     
     .projects-wrap {
@@ -661,10 +646,6 @@ footer p {
     
     .projects-wrap h2 {
         margin: 80px 0 5px 0;
-    }
-    
-    .wake-up {
-        margin-bottom: 10px;
     }
     
     .about-info {
