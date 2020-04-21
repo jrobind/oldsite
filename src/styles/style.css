@@ -125,7 +125,7 @@ header div:first-of-type, nav {
 
 header {
     z-index: 1;
-    padding: 28px 45px;
+    padding: 24px 45px;
     position: sticky;
     top: 0;
     background: white;
@@ -153,10 +153,6 @@ nav {
         -ms-flex-pack: end;
             justify-content: flex-end;
     margin-left: 10%;
-}
-
-nav a:last-of-type {
-    font-size: 1.15em;
 }
 
 nav a:hover {
@@ -345,18 +341,6 @@ nav a:hover {
 }
 
 /* ----------- contact section styles ----------- */
-
-label {
-    visibility: hidden;
-}
-
-#name {
-    margin-left: -40px;
-}
-
-textarea {
-    margin-top: 0;
-}
 
 .contact-wrap {
     color: white;
@@ -588,7 +572,11 @@ footer p {
     
     .projects-link, .contact-link, .cv {
         margin-right: 10px;
-        font-size: 0.85em;
+        font-size: 0.8em;
+    }
+
+    header a img {
+        max-width: 19px;
     }
     
     .contact-section form div {
@@ -601,10 +589,6 @@ footer p {
                 flex-direction: column;
         width: 100%;
     }
-
-    #name {
-        margin-left: 5px;
-    }
     
     .contact-section form {
         width: 90%;
@@ -614,10 +598,6 @@ footer p {
 @media screen and (max-width: 475px) {
     .top-wrap {
         margin: 0 15px;
-    }
-
-    header a img {
-        max-width: 19px;
     }
     
     .projects-wrap {
@@ -629,7 +609,7 @@ footer p {
     }
     
     .about h2, .projects-wrap h2 {
-        font-size: 1.8em;
+        font-size: 1.7em;
     }
     
     .skills-wrap p {
@@ -649,7 +629,7 @@ footer p {
     }
     
     .about-info {
-        margin: 10px 3%;
+        margin: 10px 0;
     }
     
     .project {

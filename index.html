@@ -16,8 +16,8 @@
             <header>
                 <div><h1><a href=".">James Robinson.</a></h1></div>
                 <nav>
-                    <a tabindex=0 href="#projects-section" class="projects-link">Projects</a>
-                    <a tabindex=0 href="#contact-section" class="contact-link">Contact</a>
+                    <a tabindex=0 class="projects-link">Projects</a>
+                    <a tabindex=0 class="contact-link">Contact</a>
                     <a class="cv" href="./cv/cv.pdf" title="" download>CV</a>
                     <a aria-label="Github link" rel="noopener" href="https://github.com/jrobind" target="_blank"><img alt="Gtihub logo" src="./images/github-icon.png"></a>
                     </nav>
@@ -38,7 +38,7 @@
                         </div>
 
                         <div class="about-info">
-                            I'm James Robinson, a London-based developer. Although I have a wide-ranging skillset, I specialise in all things JavaScript, from plain old vanilla, to the latest frameworks and libraries. I am excited about learning new technologies while working hard to improve my existing skills. When I'm not coding I like to go into the mountains - for hiking or climbing. I also enjoy powerlifting and olympic weightlifting.
+                            I'm James Robinson, a London-based developer. Although I have a wide-ranging skill set, I specialise in all things JavaScript, from plain old vanilla, to the latest frameworks and libraries. I am excited about learning new technologies while working hard to improve my existing skills. When I'm not coding I like to go into the mountains - for hiking or climbing.
                         </div>
                     </section>
                 </div>
@@ -49,7 +49,7 @@
                 <div class="skills">
                     <div class="skills-wrap">
                         <p>
-                            I'm a passionate developer, who loves to create and build responsive, user-friendly websites, and applications. I have deep interest in JavaScript and I am well versed in ES5, as well as modern E6S, and the React ecosystem.
+                            I'm a passionate developer, who loves to create and build responsive, user-friendly websites, and applications. I have a deep interest in JavaScript and I am well versed in ES5, as well as modern E6S, and the React ecosystem.
                         </p>
                         <p>
                             I also have a functional and growing capability with Node.js, Python, Django, and non-relational databases. Check out a few of my personal projects below and please get in touch.
@@ -57,7 +57,6 @@
                     </div>
                 </div>
                 <!--projects section-->
-                <div id="projects-section" style="margin-bottom: 45px;"></div>
                 <div class="projects-wrap">
                     <h2>Personal Projects</h2>
                     <!-- Tube-status project -->
@@ -69,7 +68,7 @@
                                 Tube-status is a progressive web application providing tube line status updates for the London underground and overground system. The application utilises the excellent open data <a rel="noopener" target="_blank" href="https://tfl.gov.uk/info-for/open-data-users/">API</a> provided by TFL, and is built using modern web technologies such as web components and service workers.
                             </p>
                             <p>
-                                The application supports push notifications – allowing the user to subscribe to a tube line and time slot to be alerted to any service disruptions and updates.
+                                The application supports push notifications – allowing users to subscribe to a tube line and specified time slot. They will be immediately alerted to any service disruptions and updates.
                             </p>
                         </div>
                         <a href="https://tube-status.co.uk" rel="noopener" target="_blank" class="visit tube-status">VISIT WEBSITE</a>
@@ -122,7 +121,6 @@
                 </div>
             </main>
             <!--contact form-->
-            <div id="contact-section" style="margin-bottom: 45px;"></div>
             <section class="contact-section">
                 <div class="contact-wrap">
                     <h2>Get In Touch.</h2>
@@ -131,12 +129,9 @@
                     <form action="https://formspree.io/jrobind@outlook.com" method="POST">
                         <!--form-->
                         <div>
-                            <label for="name">Name</label>
                             <input type="text" name="name" id="name" placeholder="*name" required>
-                            <label for="email">Email</label>
                             <input type="email" name="email" id="email" placeholder="*email address" required>
                         </div>
-                        <label for="message">Message</label>
                         <textarea name="message" id="message" required placeholder="*how can I help?"></textarea>
                         <input type="submit" value="Send">
                         <p class="required">* Required</p>
